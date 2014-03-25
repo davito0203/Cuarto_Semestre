@@ -1,0 +1,6 @@
+class TapeDeck {
+	boolean canRecord = false;
+	void recordDVD() {
+	System.out.println("DVD recording");
+	}
+}

@@ -1,0 +1,15 @@
+
+import java.util.*;
+
+public class Program1 {
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Date d1 = new Date(1001000000000L); // a trillion!
+		System.out.println("2st date " + d1.toString());
+		}
+
+}

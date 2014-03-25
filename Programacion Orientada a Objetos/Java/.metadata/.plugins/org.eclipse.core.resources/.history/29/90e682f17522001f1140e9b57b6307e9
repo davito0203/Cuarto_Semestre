@@ -1,0 +1,12 @@
+
+public class RectanguloTest {
+	public static void main(String[] args) {
+		double altura = 4;
+		Rectangulo re = new Rectangulo();
+		re.setaltura(altura);
+		re.setancho(2);
+		re.setcolor("green");
+		
+		System.out.println(re.getcolor);
+	}
+}

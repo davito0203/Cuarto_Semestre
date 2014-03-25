@@ -1,0 +1,12 @@
+
+
+public class Program1 {
+	public static void main(String[] args) {
+		int a = 46;
+		int b = 23;
+		if(a%b==0)
+			System.out.println(a + " es multiplo de " + b);
+		else
+			System.out.println(a + " no es multiplo de " + b);
+				}
+}

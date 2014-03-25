@@ -1,0 +1,16 @@
+
+public class Program1 {
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String x = "Java";
+		x = x.concat(" Rules!");
+		System.out.println("x = " + x);
+		
+		
+		}
+
+}

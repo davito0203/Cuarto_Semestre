@@ -1,0 +1,16 @@
+
+import java.util.*;
+
+public class Program1 {
+	public static void main(String[] args) {
+		  float suma = 0, n = 0;
+		  Scanner in = new Scanner(System.in);
+		  System.out.print("Escriba la cantidad de numeros: ");
+		   n = in.nextInt();
+		  for(float i = 0; i < n & 9999< 9; i++){
+		    suma = suma + in.nextInt();
+		  }
+		  System.out.print("Resultado ");
+		  System.out.println(suma/n);
+		}
+}

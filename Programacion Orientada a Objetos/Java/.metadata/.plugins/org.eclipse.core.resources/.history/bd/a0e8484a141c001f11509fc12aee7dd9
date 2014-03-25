@@ -1,0 +1,12 @@
+
+
+public class Program1 {
+		public boolean esImpar(int iNumero) {
+			  if (iNumero%2!=0)
+			    return true;
+			  else
+			    return false;
+
+		}
+
+}

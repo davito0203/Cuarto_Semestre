@@ -1,0 +1,26 @@
+
+import javax.swing.JOptionPane;
+
+public class Program1 {
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String ed,ned;
+	     int edad, ne=0, conte, acume=0;
+	     float prome;
+	     ned=JOptionPane.showInputDialog("Cuantas edades desea procesar? ");
+	     ne=Integer.parseInt(ned);
+	     JOptionPane.showMessageDialog(null,"Por favor, digite las "+ne+" edades");
+	     for(conte=1;conte <= ne;conte++){
+	          ed=JOptionPane.showInputDialog("Edad "+conte+"?");
+	          edad=Integer.parseInt(ed);
+	          acume=acume+edad; // Acumulador
+	     }
+	     prome=acume/ne; 
+	     JOptionPane.showMessageDialog(null,"La edad promedio es: "+prome); 
+		}
+
+}

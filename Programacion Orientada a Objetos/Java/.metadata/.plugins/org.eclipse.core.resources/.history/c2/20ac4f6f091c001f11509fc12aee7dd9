@@ -1,0 +1,13 @@
+
+public class Program1 {
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String x = "taxi";
+		System.out.println( x.concat(" cab") );
+		}
+
+}

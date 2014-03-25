@@ -1,0 +1,12 @@
+# Writing all output to: C:\Documents and Settings\USER\Mis documentos\David\UNAL\Cuarto Semestre\Taller Ingenieria Electronica\Fuente\Fuente2.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+

@@ -1,0 +1,12 @@
+
+
+
+public class Program1 {
+	public static void main(String[] args) {
+		int a = 4;
+		int b = 43;
+		System.out.println(a + b + " es la suma de " + a + " y " + b);
+		System.out.println(a - b);
+		System.out.println(a * b);
+		}
+}

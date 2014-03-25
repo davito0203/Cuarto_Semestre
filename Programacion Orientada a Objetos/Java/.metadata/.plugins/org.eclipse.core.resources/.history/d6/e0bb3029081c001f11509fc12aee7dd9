@@ -1,0 +1,15 @@
+
+public class Program1 {
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String sa = "zsdsadasd";
+		System.out.println(sa);
+		
+		
+		}
+
+}

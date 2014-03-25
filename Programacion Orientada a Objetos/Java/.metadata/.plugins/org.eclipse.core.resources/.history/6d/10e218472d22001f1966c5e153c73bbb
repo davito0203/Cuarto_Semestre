@@ -1,0 +1,10 @@
+
+public class DVDPlayerTestDrive {
+	DVDPlayer d = new DVDPlayer();
+	d.canRecord = true;
+	d.playDVD();
+	if (d.canRecord == true) {
+	d.recordDVD();
+	}
+	}
+}
